@@ -8,11 +8,11 @@ public class Sum
         int m = 2, n = 3;
         
         // Execute the following code m*m-1 times:
-        for (double i = 0; i <= m*m -1; i++) {
+        for (int i = 0; i <= m*m -1; i++) {
             // Execute the following code n-1 times
-            for (double j = 1; j <= n; j++) {
+            for (int j = 1; j <= n; j++) {
                 // Add i/2+2*j to the sum
-                sum = sum + i/2 + 2*j;
+                sum = sum + i/2.0 + 2*j;
             }
         }
         // Print the sum
