@@ -12,7 +12,7 @@ public class Sum
             // Execute the following code n-1 times
             for (int j = 1; j <= n; j++) {
                 // Add i/2+2*j to the sum
-                sum = sum + i/2.0 + 2*j;
+                sum = sum + i/2.0d + 2*j;
             }
         }
         // Print the sum
